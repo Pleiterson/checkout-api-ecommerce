@@ -3,7 +3,7 @@ package com.pleiterson.ecommerce.checkoutapiecommerce.listener;
 import com.pleiterson.ecommerce.checkoutapiecommerce.entity.CheckoutEntity;
 import com.pleiterson.ecommerce.checkoutapiecommerce.service.CheckoutService;
 import com.pleiterson.ecommerce.checkoutapiecommerce.streaming.PaymentPaidSink;
-import com.hatanaka.ecommerce.payment.event.PaymentCreatedEvent;
+import com.pleiterson.ecommerce.checkoutpaymentecommerce.event.PaymentCreatedEvent;
 import lombok.RequiredArgsConstructor;
 import org.springframework.cloud.stream.annotation.StreamListener;
 import org.springframework.stereotype.Component;
